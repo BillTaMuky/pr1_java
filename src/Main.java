@@ -37,7 +37,7 @@ public class Main {
         boolean hasDigits = false;
 
         for(int i = 0; i < data.length(); i++) {
-            char c = data.charAt(i);
+            char c = data.charAt( i);
 
             if(c >= '0' && c <= '9') {
                 int digit = c - '0';
